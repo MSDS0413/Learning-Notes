@@ -1,1 +1,17 @@
+3 basic data structure: 1) list 2) dictionary 3) tuple
+All three are collections(sequence)
+List uses [], dictionary uses {'a':1,b:2}, tuple (a,b,c)
+List and dictionary are mutable but tuple cannot
+List and tuple are sortable while dictionary is hashable, so not sortable, which means couldn't use sort() or sorted()
+List and tuple use lst[] or tpl[]
+    > range() returns a list of indices from 0 to n-1
+List:  
+    +: a = [1, 2, 3] b = [4, 5, 6] c = a + b c = [1,2,3,4,5,6]
+    *: [0]*4 >>> [0, 0, 0, 0]
+    lst.append()
+    lst.extend() >>> append a whole list
+    list.sort() >>> low to high
+    x = lst.pop(1)
+    del t[1]
+    
 
